@@ -88,6 +88,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\AdminLTE.css" />
+    <Content Include="assets\css\bootstrap-theme.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\ionicons.min.css" />
+    <Content Include="assets\css\rtl.css" />
+    <Content Include="assets\css\_all-skins.min.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\js\adminlte.min.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\demo.js" />
+    <Content Include="assets\js\fastclick.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.slimscroll.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -101,7 +114,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\Vazir-Bold-FD-WOL.eot" />
+    <Content Include="assets\fonts\Vazir-Bold-FD-WOL.ttf" />
+    <Content Include="assets\fonts\Vazir-Bold-FD-WOL.woff" />
+    <Content Include="assets\fonts\Vazir-FD-WOL.eot" />
+    <Content Include="assets\fonts\Vazir-FD-WOL.ttf" />
+    <Content Include="assets\fonts\Vazir-FD-WOL.woff" />
     <None Include="packages.config" />
+    <Content Include="Views\Sheared\Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,7 +138,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
